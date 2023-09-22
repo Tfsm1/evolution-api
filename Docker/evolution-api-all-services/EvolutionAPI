@@ -49,7 +49,7 @@ REDIS_PREFIX_KEY=evolution
 # Global Webhook Settings
 # Each instance's Webhook URL and events will be requested at the time it is created
 ## Define a global webhook that will listen for enabled events from all instances
-WEBHOOK_GLOBAL_URL=''
+WEBHOOK_GLOBAL_URL='https://evoapi.grupotelemed.com.br'
 WEBHOOK_GLOBAL_ENABLED=false
 # With this option activated, you work with a url per webhook event, respecting the global url and the name of each event
 WEBHOOK_GLOBAL_WEBHOOK_BY_EVENTS=false
