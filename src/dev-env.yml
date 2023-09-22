@@ -8,7 +8,7 @@
 SERVER:
   TYPE: http # https
   PORT: 8080 # 443
-  URL: http:206.189.192.212:8080
+  URL: https://evoapi.grupotelemed.com.br/
 
 CORS:
   ORIGIN:
