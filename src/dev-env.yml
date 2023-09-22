@@ -91,8 +91,8 @@ WEBSOCKET:
 WEBHOOK:
   # Define a global webhook that will listen for enabled events from all instances
   GLOBAL:
-    URL: <url>
-    ENABLED: false
+    URL: https://evoapi.grupotelemed.com.br
+    ENABLED: true
     # With this option activated, you work with a url per webhook event, respecting the global url and the name of each event
     WEBHOOK_BY_EVENTS: false
   # Automatically maps webhook paths
@@ -136,7 +136,7 @@ CONFIG_SESSION_PHONE:
 
 # Set qrcode display limit
 QRCODE:
-  LIMIT: 30
+  LIMIT: 300
   COLOR: "#198754"
 
 # Defines an authentication type for the api
@@ -157,4 +157,4 @@ AUTHENTICATION:
 
 # Configure to chatwoot
 CHATWOOT:
-  USE_REPLY_ID: false
+  USE_REPLY_ID: true
