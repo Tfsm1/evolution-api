@@ -14,7 +14,7 @@ COPY ./package.json .
 ENV TZ=America/Sao_Paulo
 ENV DOCKER_ENV=true
 
-ENV SERVER_URL=http://localhost:8080
+ENV SERVER_URL=https://evoapi.grupotelemed.com.br
 
 ENV CORS_ORIGIN=*
 ENV CORS_METHODS=POST,GET,PUT,DELETE
